@@ -13,16 +13,33 @@
  .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.banar{
+    text-align: center;
+}
+.btn-paimari{
+    background-color:rgba(255, 216, 14, 1) ;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+
+}
 .disply-flex{
     display: flex;
 
 }
 .navbar{
     justify-content: space-around;
+    align-items: center;
 }
 .nav-itmes{
     list-style: none;
     margin-right: 30px;
+}
+.brand{
+    font-weight: 700px;
+    font-size: 3rem;
 }
 .nav-link{
     text-decoration: none;
@@ -35,4 +52,24 @@
 .navbar, .bannar{
     max-width: 1440px;
     margin: 0 auto;
+}
+.banar-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banar-title{
+    font-weight: 700px;
+    font-size: 4rem;
+}
+.imge-image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:576px) {
+    .nav-link,
+    .navbar{
+        flex-direction: column;
+    }
 }
